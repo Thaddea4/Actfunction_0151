@@ -2,3 +2,15 @@
 using namespace std;
 
 int p, l, luas;
+
+int main(){
+
+    cout << "Masukkan Panjang : ";
+    cin >> p;
+
+    cout << "Masukkan Lebar : ";
+
+    luas = p*l;
+
+    cout << "Hasilnya : " << luas;
+}
