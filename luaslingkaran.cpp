@@ -12,3 +12,7 @@ void input(){
 float luasLingkaran (int b){
     return phi*b*b;
 }
+
+void output(){
+    cout << "Hasilnya =" << luasLingkaran(r);
+}
